@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- fontawsome -->
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- javascript -->
+    <link rel="stylesheet" href="/js/bootstrap.min.js">
+    <link rel="stylesheet" href="/js/jquery.js">
+
+    <!--        google font    -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+     
+    <!--        media query   -->
+	<link rel="stylesheet" type="text/css" href="/css/responsive.css">
+
+</head>
+<body>
+
+  <!--     header     bar    -->
+  <header class="hor-bar">
+		<section >
+			<div class="conatiner">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="head-beep">
+							<i class="fa fa-shopping-bag"></i>
+							<h1>beep</h1>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<div class="profile">
+							<i class="material-icons">person</i>
+							<p><a url="#">My Profile</a></p>
+						</div>
+
+					</div>
+
+					<!--    cart icon   -->
+					 
+					<div class="col-md-1">
+						<div class="cart">
+							<i class="fa fa-shopping-cart"></i>
+							<a href="#">items</a>
+						</div>
+					</div>
+
+
+					<!--    search icon    -->
+					<div class="col-md-3">
+						<div class="search">
+							<i class="material-icons">search</i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</header>
+	
+  
+  <!-- header -->
+<header class="header-bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-md-offset-0 ">
+              <span>
+                  <a href="#">Home</a>
+                  /
+                  <a href="#">Accesories</a>
+              </span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- category and caraousel -->
+<section class="category-carousel">
+    <div class="container">
+        <div class="row">
+          
+            <div class="col-md-3 col-md-offset-0">
+              <div class="catagory">
+                <h3>All categories</h3>
+              
+                <a url="#">Accesories</a><br>
+                <a url="#">Cables & Docks</a> <br>
+                <a url="#"> Cases & Films</a><br>
+                <a  url="#" >Charging & Devices </a><br>
+                <a url="#"> Connected & Home</a><br>
+                <a url="#"> Headphones</a>
+              
+
+              </div>
+              
+              
+                              
+            </div>
+            <div class="col-md-9 banner" >
+              <div class="phots">
+                <div id="carousel-scrll" class="carousel slide" data-ride="carousel">
+                  <!-- inidicators  -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-scrll" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-scrll" data-slide-to="1"></li>
+                    <li data-target="#carousel-scrll" data-slide-to="2"></li>
+                  </ol>
+                  <!-- wrapper for slides-->
+                  <div class="carousel-inner"> 
+                    <div class="item active text-center">
+                      <img src="img/banner.jpg" alt="shoppic" class="center-block">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3><a url="#" style="color:black">  Shop Now </a></h3>	
+                        <hr>											
+                      </div>																					
+                    </div>
+                    <div class="item  text-center">
+                      <img src="img/banner.jpg" alt="shoppic" class="center-block">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3><a url="#" >  Shop Now  </a></h3>
+                        <hr>
+                      </div>								
+                    </div>
+                    <div class="item  text-center shop">
+                      <img src="img/banner.jpg" alt="shop-pic" class="center-block">	
+                      <div class="carousel-caption d-none d-md-block">
+                        <h3><a url="#">  Shop Now </a></h3>
+                      <hr>
+                      </div>						
+                    </div>
+                  </div>
+                </div>
+            </div>	
+          </div> 
+          
+        </div> 
+      </div>
+    </div>
+</section>
+<br>
+
+
+<section class="product-section">
+  <div class="container">
+    <div class="row">
+
+      <!-- price` -->
+      <div class="col-md-3">
+        <div class="price">
+          <h3>PRICE</h3>
+          <div class="price-secondary-heading">
+            <p class="l">min</p>&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;
+            <p class="r">max</p>
+          </div>
+          <span>
+            <input type="text" placeholder="$499">
+            &nbsp;&emsp;
+            -
+            &nbsp;&emsp;
+            <input type="text" placeholder="$499">
+          </span>
+        </div>
+
+        <div class="color ">
+          <h3>COLOR</h3>
+            <span>
+              <input type="radio" name="c" class="blue-color ro">
+              &emsp;
+              <input type="radio" name="c" class="red-color ro">
+              &emsp;
+              <input type="radio" name="c" class="black-color ro">
+              &emsp;
+              <input type="radio" name="c" class="yellow-color ro">
+              &emsp;
+              <input type="radio" name="c" class="pink-color ro">
+            </span>           
+        </div> 
+        <div class="brand">
+          <div class="brand-list" >
+            <h3>BRAND</h3>
+  
+            <a url="#">APPLE&emsp;&emsp;70</a><br>
+            <a url="#">BEATS&emsp;&emsp;70</a><br>
+            <!-- <a url="#">VIVO&emsp;&emsp;70</a><br> -->
+            <a url="#">SAMSUNG&emsp;&emsp;70</a><br>
+            <a url="#">Semiens&emsp;&emsp;70</a><br>
+          </div>
+  
+
+        </div>
+        
+        <div class="more-col" >
+          <a href="#">MORE</a>
+        </div>
+      </div>
+
+      <div class="col-md-9 ">
+        <div class="nv">
+          <nav>
+            <span class="navbar-text">13 items</span>
+            <span class="navbar-text">Sortby
+              <select>
+                  <option>name</option>
+                  <option>type</option>
+                  <option>popularity</option>
+                  <option>relevance</option>
+                  <option>ratings</option>
+                  <option>low-high</option>
+              </select>
+            </span>
+            <span class="navbar-text ">Show
+              <select>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+              </select>
+            </span>
+            <span class="nav-icons-bar"> 
+              <i class="material-icons i1">apps</i>
+              <i class="material-icons i2">reorder</i>
+            </span>
+          </nav>
+        </div>
+
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+        <div class="col-md-4">
+          <div class="rounded products">
+            <img class="rounded" src="/img/headphone.jpeg" alt="####">
+            <hr>
+            <h2>Boat Headphone </h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <p> $499<u> $599  </u></p>
+
+          </div>								
+        </div>
+
+        
+
+
+
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+
+<!--    horizontal line -->
+<section class="horz-line">
+	<div class="conatiner">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="line1">
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+  <!--       botttom   section    -->
+	<section class="bottom">
+         <div class="container">
+			 <div class="row">
+				
+				
+				
+				<!--         about beep    -->
+
+				<div class="col-md-4">
+					<div class="beep">
+						<i class="fa fa-shopping-bag"></i>
+						<h1>beep</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+					</div>
+				</div>
+
+
+				<!-- follow us     -->
+ 
+                   <div class="col-md-4">
+					   <div class="follow">
+						   <h3>Follow us</h3>
+						   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore </p>
+						   <a href="#" class="fa fa-facebook"></a>
+						   <a href="#" class="fa fa-twitter"></a>
+						</div>
+				   </div>
+
+
+				   <!--   contact us     -->
+
+				   <div class="col-md-4">
+					   <div class="contact">
+						   <h3>Contact us </h3>
+						   <p>Buildings Alyssa, Begonia &<br>Clove Embassy Tech Village,<br>Outer Ring Road, Devarabeesanahalli Village,<br>Bengaluru, 560103,<br>Karnataka, India</p>
+					   </div>
+				   </div>
+
+			 </div>
+		 </div>
+	</section>
+
+   
+<!--    horizontal line -->
+<section class="horz-line">
+	<div class="conatiner">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="line2">
+					<hr>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<!--  footer section     -->
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+
+			<!--     copyright section     -->
+			<div class="col-md-6">
+				<div id="copyright">
+					<p>&copy; 2021 Ecommerce site <a url="#"> www.beep.com</a></p>
+				</div>
+			</div>
+
+			<!--     card icon    -->
+			<div class="col-md-6">
+				<div class="card">
+					<i class="fa fa-cc-mastercard"></i>
+					<i class="fa fa-cc-stripe"></i>
+					<i class="fa fa-cc-paypal"></i>
+					<i class="fa fa-credit-card"></i>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+    
+</body>
+</html>
